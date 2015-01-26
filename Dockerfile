@@ -1,6 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Valent Turkovic <valent@otvorenamreza.org>
-RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
+MAINTAINER Gabriel Wilkes <gabriel@azultech.com>
 RUN apt-get update
 RUN apt-get -y upgrade
 
